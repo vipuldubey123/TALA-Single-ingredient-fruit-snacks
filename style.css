@@ -1,9 +1,9 @@
 @font-face {
     font-family: vipul;
-    src: url(./62857b8fe2b5106045a452e6_ABCWhyteInktrap-Medium\ \(1\).ttf);
+    src: url(./attila.ttf);
 }
 @font-face {
-    font-family: viplu1;
+    font-family: vipul1;
     src: url(./62857b8fe2b510e426a452e3_ABCWhyteInktrap-Book\ \(1\).ttf);
 }
 @font-face {
@@ -14,7 +14,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Attila Sans Uniform Semibold';
 }
 html,body{
     height: 100%;
@@ -56,6 +55,7 @@ html,body{
     font-weight: 100;
     letter-spacing: 7px;
      font-size: 1vw;
+     font-family: vipul;
      
 }
 
@@ -71,6 +71,7 @@ html,body{
 #navpart-2>h3{
     letter-spacing: 1px;
     font-size: .8vw;
+    font-family: vipul;
 
 }
 #menu{
@@ -111,6 +112,7 @@ html,body{
     font-size: 11vw;
     color: #232025;
     top: 18%;
+    font-family: vipul;
     left: 5%;
     transition: all cubic-bezier(0.19, 1, 0.22, 1) 2s;
 }
@@ -120,7 +122,7 @@ html,body{
     top: 55%;
     line-height: 3vw;
     left: 5.5%;
-    font-family: gilroy;
+    font-family: vipul;
     font-weight: 400;
     
     color: #232025;
@@ -142,6 +144,7 @@ html,body{
     top: 16%;
     left: 5%;
     z-index: 10;
+    font-family: vipul;
     color: #D5CDC4;
 
 }
@@ -283,6 +286,7 @@ nav ul li .link span {
 	mix-blend-mode: difference;
 	display: inline-block;
 	position: relative;
+    font-family: vipul;
 	font-size: 5vw;
 	text-transform: uppercase;
 }
@@ -342,6 +346,7 @@ nav ul li .link > img {
     position: relative;
     top: 18%;
     left: 8%;
+    font-family: vipul;
     font-size: 7vw;
     color: #D5CDC4;
 }
@@ -384,13 +389,15 @@ nav ul li .link > img {
     top: 15%;
     left: 5%;
     color: #D5CDC4;
+    font-family: vipul;
     font-size: 4vw;
 }
 #page5>h2{
     position: absolute;
-    top: 20%;
+    top: 24%;
     left: 75%;
     color: #D5CDC4;
+    font: vipul;
     font-size: 1.5vw;
 }
 #page6{
@@ -466,7 +473,7 @@ nav ul li .link > img {
 }
 #page7>h1:nth-child(2){
     position: absolute;
-    font-family: copyright Klim type Foundry;
+    font-family: vipul2;
     font-weight: 100;
     top: 52%;
     font-size: 50px;    
@@ -475,6 +482,7 @@ nav ul li .link > img {
     position: relative;
     height: 130vh;
     width: 100vw;
+    font-family: vipul;
 
 }
 
@@ -554,12 +562,7 @@ nav ul li .link > img {
     font-weight: 600;
     z-index: 10;
 }
-#yes>img{
-    position: absolute;
-    height: 45vh;
-    width: 20vw;
-    left: 12%;
-}
+
 #no{
     position: absolute;
     display: flex;
@@ -578,12 +581,6 @@ nav ul li .link > img {
     font-weight: 600;
     z-index: 10;
 }
-#no>img{
-    position: absolute;
-    height: 45vh;
-    width: 20vw;
-    left: 73%;
-}
 
 #page10{
     position: relative;
@@ -593,7 +590,7 @@ nav ul li .link > img {
 #page10>h1{
     position: absolute;
     top: 10%;
-    left: 30%;
+    left: 38%;
     font-weight: 200;
     color: #D5CDC4;
     font-size: 10vh;
@@ -756,6 +753,7 @@ nav ul li .link > img {
     top: 3%;
     left: 5%;
     z-index: 10;
+    font-family: vipul;
     color: #D5CDC4;
 
 }
@@ -922,6 +920,22 @@ nav ul li .link > img {
         font-size: 3vw;
         font-weight: 100;
     }
+    #fullscreen>h1{
+        font-size: 24vw;
+   
+    top: 11%;
+    }
+    #fullscreen>h2{
+        top: 35%;
+    line-height: 12vw;
+    }
+    #fullscreen>h3{  
+    top: 38%;
+    line-height: 6vw;
+    left: 7%;
+    font-size: 2.5vw;
+
+    }
     #page2 {
         position: relative;
         height: 34vh;
@@ -1047,81 +1061,85 @@ nav ul li .link > img {
     font-size: 6vw;
 }
 #page10-img {
-    height: 12vh;
+    height: 13vh;
     left: 6%;
+    top: 36.5%;
+
 }
 #page10-img1{
-    height: 14vh;
-    top: 36%;
-    left: 20%;
+    height: 17vh;
+    top: 34%;
+    left: 18%;
 }
 #page10-img2 {
-    height: 20vh;
-    top: 33%;
-    left: 35%;
+    height: 21vh;
+    top: 32%;
+    left: 34%;
 }
 #page10-img3 {
-    height: 16vh;
-    top: 35%;
-    left: 59%;
+    height: 18vh;
+    top: 34%;
+    left: 54%;
 }
 #page10-img4{
-    height: 13vh;
-    top: 37%;
-    left: 78%;
+    height: 15vh;
+    top: 36%;
+    left: 71%;
 }
 #page11>h5{
-    top: -6%;
+    top: -17%;
 }
 #page11>h6 {
     left: 80%;
-    top: -6%;
+    top: -17%;
 }
 #page11img-1 {
-    height: 15vh;
-    width: 32.5vw;
-    left: 67%;
+    height: 16vh;
+    width: 30.5vw;
+    top: -17%;
+    left: 64%;
 }
 #page11img-2{
-    height: 15vh;
-    width: 32.5vw;
+    height: 17vh;
+    width: 30.5vw;
     left: 28%;
+    top: -18.9%;
 }
 #page11img-3{
-    height: 15vh;
-    width: 32.5vw;
-    left: 67%;
-    margin-top: 48%;
+    height: 18vh;
+    width: 31.5vw;
+    left: 64%;
+    margin-top: 10%;
 }
 #page11img-4 {
-    height: 15vh;
-    width: 32.5vw;
-    left: 67%;
-    margin-top: 85%;
+    height: 18vh;
+    width: 31.5vw;
+    left: 64%;
+    margin-top: 34%;
 }
 #page11img-5{
-    height: 15vh;
-    width: 32.5vw;
-    margin-top: 85%;
+    height: 17vh;
+    width: 31.5vw;
+    margin-top: 31%;
     left: 3%;
 }
 #page11img-6{
-    height: 15vh;
-    width: 32.5vw;
-    left: 35%;
-    margin-top: 123.5%;
+    height: 18vh;
+    width: 31.5vw;
+    left: 32%;
+    margin-top: 57.5%;
 }
 #page11img-7{
-    height: 15vh;
+    height: 18vh;
     width: 32.5vw;
-    left: 66%;
-    margin-top: 174.5%;
+    left: 62%;
+    margin-top: 96.5%;
 }
 #page11img-8{
-    height: 15vh;
+    height: 18vh;
     width: 32.5vw;
     left: 3%;
-    margin-top: 174.5%;
+    margin-top: 91.5%;
 }
 #maintext-1{
     font-size: 30vw;
@@ -1133,14 +1151,16 @@ nav ul li .link > img {
     height: 8vw;
 }
 #page12>h3{
-    top: 31%;
+    top: 36%;
     left: 9%;
     font-size: 6vw;
 }
 #textline-1{
-    top: 35%;
+
+    top: 41%;
     left: 9%;
     width: 86%;
+
 }
 #page12-part1>h1{
     font-size: 6vw;
