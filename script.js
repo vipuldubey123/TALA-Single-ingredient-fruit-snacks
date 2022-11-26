@@ -134,6 +134,17 @@ gsap.from("#main-text", {
   }
 })
 
+gsap.from("#sub-text>h3", {
+  opacity: 0,
+  duration:1,
+  stagger:.1
+})
+gsap.from("#sub2-text>h4", {
+  opacity: 0,
+  duration:1,
+  stagger:.1
+})
+
 gsap.to("#page1-img", {
   duration: 1,
   scale: 1.2,
@@ -145,12 +156,12 @@ gsap.to("#page1-img", {
   },
 
 })
-gsap.from("#page2>h3", {
+gsap.from("#page2>h1", {
   opacity: 0,
   y: 40,
   stagger: 0.1,
   scrollTrigger: {
-    trigger: "#page2>h3",
+    trigger: "#page2>h1",
     scroller: "#main",
     scrub : true,
   }
@@ -348,6 +359,21 @@ gsap.from("#page5>h2",{
     scrub : true
   }
 })
+function smileyAnimation() {
+
+  gsap.to("#smiley", {
+
+
+    rotate: '360deg',
+    repeat: '-1',
+
+    duration: 3,
+    ease: "none",
+
+  })
+}
+
+smileyAnimation();
 
 gsap.from("#page7>h1",{
   opacity: 0,
@@ -371,6 +397,45 @@ gsap.from("#page9>h1",{
   }
 })
 
+function ImageShowOnHover() {
+  var yes = document.querySelector('#yes>h2');
+  var YesImg = document.querySelector('#yes-img');
+
+  var no = document.querySelector('#no>h2');
+  var NoImg = document.querySelector('#no-img');
+
+
+  yes.addEventListener('mousemove', function (dets) {
+
+    YesImg.style.opacity = '1';
+    YesImg.style.transform = `translate(-50%,-100% )`;
+    YesImg.style.left = dets.clientX + "px";
+    YesImg.style.top = dets.clientY + "px";
+
+  })
+
+  yes.addEventListener('mouseleave', function (dets) {
+
+    YesImg.style.opacity = '0';
+  })
+
+  no.addEventListener('mousemove', function (dets) {
+
+    NoImg.style.opacity = '1';
+    NoImg.style.transform = `translate(-230%, -100% )`;
+    NoImg.style.left = dets.clientX + "px";
+    NoImg.style.top = dets.clientY + "px";
+
+  })
+
+  no.addEventListener('mouseleave', function (dets) {
+
+    NoImg.style.opacity = '0';
+  })
+
+
+}
+ImageShowOnHover() 
 gsap.from("#page10>h1",{
   opacity: 0,
   y : 40,
